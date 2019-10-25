@@ -1,6 +1,9 @@
-#include <iostream>
+#include "R.hpp"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    unsigned long long r = 0;
+    for (int i = 0; i < 100; ++i) {
+        r = R();
+    }
     return 0;
 }
