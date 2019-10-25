@@ -4,12 +4,12 @@
 
 #include "R.hpp"
 
-int _M = 20;
+unsigned long long _M = 20;
 
 unsigned long long R() {
     return Fib() % _M;
 }
 
-int setRM(int m) {
+unsigned long long setRM(unsigned long long m) {
     return _M = m;
 }
