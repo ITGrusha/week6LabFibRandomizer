@@ -3,4 +3,4 @@ project(week6LabFibRandomizer)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(week6LabFibRandomizer main.cpp Fib.cpp Fib.hpp R.cpp R.hpp)
+add_executable(week6LabFibRandomizer main.cpp FibX.cpp FibX.hpp Rand.cpp Rand.hpp)
