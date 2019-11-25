@@ -1,4 +1,4 @@
-#include "R.hpp"
+#include "Rand.hpp"
 #include <iostream>
 #include <cmath>
 
@@ -7,9 +7,10 @@ int main() {
     int numberCount = 0;
     std::cin >> numberCount;
     unsigned long long r = 0;
+    Rand rand(20, 3);
     std::cout << "Get your numbers!" << std::endl;
     for (int i = 0; i < numberCount; ++i) {
-        r = R();
+        r = rand();
         std::cout << r << '\n';
     }
     return 0;
